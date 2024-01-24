@@ -1,18 +1,15 @@
 package com.wearetriple.theoplayer
- 
+
 import android.os.Build
 import android.os.Bundle
- 
+
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.fabricEnabled
 import com.facebook.react.defaults.DefaultReactActivityDelegate
- 
+
 import expo.modules.ReactActivityDelegateWrapper
 
-import com.google.android.gms.cast.framework.CastContext
-
-import androidx.core.splashscreen.SplashScreen
 
 class MainActivity : ReactActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,16 +18,14 @@ class MainActivity : ReactActivity() {
     // This is required for expo-splash-screen.
     setTheme(R.style.AppTheme);
     super.onCreate(null);
-
-    CastContext.getSharedInstance(this);
   }
- 
+
   /**
    * Returns the name of the main component registered from JavaScript. This is used to schedule
    * rendering of the component.
    */
   override fun getMainComponentName(): String = "main"
- 
+
   /**
    * Returns the instance of the [ReactActivityDelegate]. We use [DefaultReactActivityDelegate]
    * which allows you to enable New Architecture with a single boolean flags [fabricEnabled]
@@ -45,7 +40,7 @@ class MainActivity : ReactActivity() {
               fabricEnabled
           ){})
   }
- 
+
   /**
     * Align the back button behavior with Android S
     * where moving root activities to background instead of finishing activities.
@@ -59,7 +54,7 @@ class MainActivity : ReactActivity() {
           }
           return
       }
- 
+
       // Use the default back button implementation on Android S
       // because it's doing more than [Activity.moveTaskToBack] in fact.
       super.invokeDefaultOnBackPressed()

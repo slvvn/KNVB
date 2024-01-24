@@ -13,8 +13,3 @@ local.properties
 
 # Bundle artifacts
 *.jsbundle
-
-# Fastlane
-fastlane/README.md
-fastlane/report.xml
-fastlane/local

@@ -7,18 +7,8 @@
 # For more details, see
 #   http://developer.android.com/guide/developing/tools/proguard.html
 
+# react-native-reanimated
 -keep class com.swmansion.reanimated.** { *; }
--keep class com.shopify.reactnative.skia.** { *; }
 -keep class com.facebook.react.turbomodule.** { *; }
 
 # Add any project specific keep options here:
-# Theoplayer
--dontwarn com.theoplayer.android.api.ads.dai.GoogleDaiIntegration
--dontwarn com.theoplayer.android.api.ads.ima.GoogleImaAdBreak
--dontwarn com.theoplayer.android.api.ads.ima.GoogleImaAdEvent
--dontwarn com.theoplayer.android.api.ads.ima.GoogleImaAdEventType
--dontwarn com.theoplayer.android.api.ads.ima.GoogleImaIntegration
--dontwarn java.beans.**
--dontwarn javax.lang.**
--dontwarn javax.naming.**
--dontwarn javax.tools.**
