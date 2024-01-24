@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "extends": [
+    "triple/react",
+    "plugin:react-native-a11y/all",
+    "plugin:prettier/recommended"
+  ],
+  "env": { "browser": true, "node": true },
+  "parserOptions": { "project": "./tsconfig.json" },
+  "ignorePatterns": [
+    ".*",
+    "*.md",
+    "*.json",
+    "*.svg",
+    "*.png",
+    "*.ttf",
+    "*.otf"
+  ],
+  "rules": {
+    "react/jsx-key": ["error"],
+    "react-hooks/exhaustive-deps": "warn",
+    "react/style-prop-object": "off",
+    "filenames/match-exported": "off"
+  }
+}

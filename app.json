@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "theoplayer",
+    "slug": "theoplayer",
+    "version": "1.0.0",
+    "scheme": "theoplayer",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#FF6000",
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "jsEngine": "hermes",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.wearetriple.theoplayer"
+    },
+    "android": {
+      "package": "com.wearetriple.theoplayer"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      "expo-router",
+      "@config-plugins/react-native-google-cast"
+    ],
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    }
+  }
+}
