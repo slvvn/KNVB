@@ -16,15 +16,15 @@
 
 4. When the app launched in the Android simulator, press on the button to open the screen containing the Theoplayer.
 
-5. After the screen with the video has been rendered, go back to the previous screen.
+5. After the screen with the video has been rendered, play the content.
 
 ## Expected result
 
-Navigating back goes successfully, without an error.
+Given the devices have a stable internet connection, both Android and iOS will play the stream with minimal delay.
 
 ## Actual result
 
-Error occurs:
+Performance issue occurs:
 ```
-The specific child already has a parent. You must call removeView() on the child's parent first.
+Playout on Android takes more than 5 seconds to start.
 ```
