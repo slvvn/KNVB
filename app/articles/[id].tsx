@@ -33,7 +33,7 @@ const ArticleRoute = () => {
     _player.source = {
       sources: [
         {
-          src: "https://live-par-2-abr.livepush.io/vod/bigbuckbunnyclip.mp4",
+          src: "https://knvb-oranjeapp-t-azwe-wa-cms-1.azurewebsites.net/media/grrbqtth/tree.mp4",
         },
       ],
     };
