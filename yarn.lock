@@ -14552,10 +14552,10 @@ react-native-tab-view@^3.5.2:
   dependencies:
     use-latest-callback "^0.1.5"
 
-react-native-theoplayer@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/react-native-theoplayer/-/react-native-theoplayer-3.4.2.tgz#d2fc4a3910d1141b9f8b3eabc6b999c52ab9a399"
-  integrity sha512-BrhQlTasA3DsBNtXeoWqRy02Ha1WpYRWsnc62zoexOg0kAgAMU8qFloXXPBiZWvE+WPGZzA6ZjAJyZgmPh247g==
+react-native-theoplayer@3.7.1:
+  version "3.7.1"
+  resolved "https://registry.yarnpkg.com/react-native-theoplayer/-/react-native-theoplayer-3.7.1.tgz#21e299084b797060484ddc2e26477bc2a3dfdf06"
+  integrity sha512-gnU6mk2fkAtzlGj41j28u9HgTHItZEOrrBPZfvuXVh6hvTQvyqmL3g/7rmOQTcRbLpLugBfQT7Do6qqaKVwvRg==
   dependencies:
     buffer "^6.0.3"
 

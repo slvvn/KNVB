@@ -62,7 +62,7 @@
     "react-native-screens": "~3.29.0",
     "react-native-svg": "14.1.0",
     "react-native-tab-view": "^3.5.2",
-    "react-native-theoplayer": "3.4.2",
+    "react-native-theoplayer": "3.7.1",
     "react-native-webview": "13.6.4",
     "react-native-youtube-iframe": "^2.3.0"
   },

@@ -101,9 +101,9 @@ PODS:
     - GoogleUtilities/Logger (~> 7.12)
   - FirebaseCoreExtension (10.19.0):
     - FirebaseCore (~> 10.0)
-  - FirebaseCoreInternal (10.20.0):
+  - FirebaseCoreInternal (10.21.0):
     - "GoogleUtilities/NSData+zlib (~> 7.8)"
-  - FirebaseInstallations (10.20.0):
+  - FirebaseInstallations (10.21.0):
     - FirebaseCore (~> 10.0)
     - GoogleUtilities/Environment (~> 7.8)
     - GoogleUtilities/UserDefaults (~> 7.8)
@@ -1074,9 +1074,9 @@ PODS:
     - React-Core
   - react-native-slider (4.4.2):
     - React-Core
-  - react-native-theoplayer (3.4.2):
+  - react-native-theoplayer (3.7.1):
     - React-Core
-    - THEOplayerSDK-core (~> 6.0)
+    - THEOplayerSDK-core (~> 6.9)
   - react-native-webview (13.6.4):
     - glog
     - RCT-Folly (= 2022.05.16.00)
@@ -1302,7 +1302,7 @@ PODS:
   - sqlite3 (3.42.0):
     - sqlite3/common (= 3.42.0)
   - sqlite3/common (3.42.0)
-  - THEOplayerSDK-core (6.8.0)
+  - THEOplayerSDK-core (6.10.0)
   - Yoga (1.14.0)
 
 DEPENDENCIES:
@@ -1650,8 +1650,8 @@ SPEC CHECKSUMS:
   FirebaseAppDistribution: bfe8523cb9f065a635224c6ed3e67f1797205d17
   FirebaseCore: dc5c7badf99d47613c52b2e3a57a64cd187f8554
   FirebaseCoreExtension: c08d14c7b22e07994e876d837e6f58642f340087
-  FirebaseCoreInternal: efeeb171ac02d623bdaefe121539939821e10811
-  FirebaseInstallations: 558b1da7d65afeb996fd5c814332f013234ece4e
+  FirebaseCoreInternal: 43c1788eaeee9d1b97caaa751af567ce11010d00
+  FirebaseInstallations: 390ea1d10a4d02b20c965cbfd527ee9b3b412acb
   FirebaseMessaging: d322bd030a0e97398bf134746e087b88e6ba0074
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: c5d68082e772fa1c511173d6b30a9de2c05a69a2
@@ -1695,7 +1695,7 @@ SPEC CHECKSUMS:
   react-native-safe-area-context: 0ee144a6170530ccc37a0fd9388e28d06f516a89
   react-native-skia: 6ff88e46d2cf30bf579a5aa3633bf72413ba636a
   react-native-slider: 33b8d190b59d4f67a541061bb91775d53d617d9d
-  react-native-theoplayer: 7b690a768633a0b49d29816e36655a72bb5d869e
+  react-native-theoplayer: c17f11ae85ae51ec85ae72a370af934fa00d353e
   react-native-webview: 1f6c37318115b6e96285e0b06770307d9a751bb8
   React-nativeconfig: 4dda3cbbdd1c4ce38450bb10b34b3e54120e4a91
   React-NativeModulesApple: d25a530c61e94fb317a0124b1cde1c459e4a47d3
@@ -1735,7 +1735,7 @@ SPEC CHECKSUMS:
   SentryPrivate: 839b1e58addf58624087a80b2628e543193fa8ef
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   sqlite3: f163dbbb7aa3339ad8fc622782c2d9d7b72f7e9c
-  THEOplayerSDK-core: cafc7366ad703da91abaa7fe9b68b57aa01c336b
+  THEOplayerSDK-core: 2568325514d164d56203ad2b1809f3e1a1c21373
   Yoga: 13c8ef87792450193e117976337b8527b49e8c03
 
 PODFILE CHECKSUM: 3137db1a321e43ad86c7e44431c99887cba88d99

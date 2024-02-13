@@ -3,12 +3,14 @@ import {
   CenteredDelayedActivityIndicator,
   ControlBar,
   DEFAULT_THEOPLAYER_THEME,
+  FullscreenButton,
   PlayButton,
   SeekBar,
   UiContainer,
 } from "@theoplayer/react-native-ui";
 import { useLocalSearchParams } from "expo-router";
 import React, { useState } from "react";
+import { View } from "react-native";
 import {
   PlayerConfiguration,
   THEOplayer,
@@ -42,21 +44,28 @@ const ArticleRoute = () => {
   };
 
   return (
-    <THEOplayerView config={PLAYER_CONFIG} onPlayerReady={handleReady}>
-      {player !== undefined && (
-        <UiContainer
-          theme={{ ...DEFAULT_THEOPLAYER_THEME }}
-          player={player}
-          behind={<CenteredDelayedActivityIndicator size={50} />}
-          center={<CenteredControlBar middle={<PlayButton />} />}
-          bottom={
-            <ControlBar>
-              <SeekBar />
-            </ControlBar>
-          }
-        />
-      )}
-    </THEOplayerView>
+    <View style={{ height: 300 }}>
+      <THEOplayerView config={PLAYER_CONFIG} onPlayerReady={handleReady}>
+        {player !== undefined && (
+          <UiContainer
+            theme={{ ...DEFAULT_THEOPLAYER_THEME }}
+            player={player}
+            behind={<CenteredDelayedActivityIndicator size={50} />}
+            center={<CenteredControlBar middle={<PlayButton />} />}
+            bottom={
+              <>
+                <ControlBar>
+                  <SeekBar />
+                </ControlBar>
+                <ControlBar>
+                  <FullscreenButton />
+                </ControlBar>
+              </>
+            }
+          />
+        )}
+      </THEOplayerView>
+    </View>
   );
 };
 
